@@ -131,15 +131,6 @@ Out of the three clustering models Agglomerate Clustering had the best Silhouett
 
 > **Fairness and Equity:**  We have used the SDOH data to inform the development and optimization of healthcare interventions and services aimed at improving health outcomes and not with an intention to exploit or harm the general public.
 
-## Additional models
-
-> Q1: Support Vector Regression (SVR): SVR predicts mortality rates from heart disease based on socio-economic and environmental factors while maximizing the margin between data points and the hyperplane. It considers the spatial distribution of data points in the feature space and finds the optimal hyperplane that separates them, making accurate predictions. We have speicfically used it because it does well to handle non linear relations between input variables.
-
-> Q2 XGBoost: XGBoost was chosen as an additional model due to its robustness and efficiency in dealing with structured data. It's renowned for its ability to manage a mix of categorical and numerical features, as well as its capability to automatically handle missing data—features that are particularly pertinent given the intricate nature of social health determinants. Furthermore, XGBoost offers advanced functionalities like regularization to prevent overfitting and tree-pruning options, making it an ideal candidate for developing a nuanced understanding of risk classification. Its use of gradient boosting frameworks adds an extra layer of precision by building one tree at a time and correcting the previous trees' errors. This iterative refinement is critical when the goal is not just to predict but also to understand the relative influence of various social factors on diabetes risk.
-
-> Q3 GaussianMixture: 
-
-
 
 ## Disclaimer/Sensitive Content
 
